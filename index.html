@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remuv</title>
+    <link rel="stylesheet" href="/sites/remuv/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Remover Quebra de Linha</h1>
+        <label for="inputString" class="invisivel"></label>
+        <textarea type="text" class="form" rows="1" id="inputString" placeholder="Escreva seu texto aqui.."></textarea>
+        <br>
+        <button class="botao" onclick="Converter()">Remover</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        function RemoveNewLine(str) {
+            return str.replace(/(\r\n|\n|\r)/gm, " ");
+        }
+
+        function Converter() {
+            var texto = document.getElementById("inputString").value;
+            document.getElementById("resultado").innerHTML = RemoveNewLine(texto);
+
+        } 
+    </script>
+</body>
+
+</html>

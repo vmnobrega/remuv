@@ -1,0 +1,44 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #3175db;
+    background-color: #ffffff;
+    background-position: center;
+    overflow-y: visible !important;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: left
+}
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.form {
+    width: 720px;
+    height: 200px;
+    margin: 0;
+    border: 2px solid #3175db;
+}
+
+.botao {
+    color: white;
+    background-color: #3175db;
+    border-style: none;
+    width: 120px;
+    height: 35px;
+    font-size: 17px;
+    left: 50%;
+    transform: translate(505%, -122%);
+}
+
+#resultado {
+    width: 722px;
+    color: black;
+}
+
+
+
