@@ -1,2 +1,3 @@
 # Remuv
-Removes new line from text with HTML, CSS and Javascript.
+Removes new line "/n" from text. 
+Made with HTML, CSS and Javascript.
