@@ -36,9 +36,11 @@ h1 {
     transform: translate(505%, -122%);
 }
 
-input#resultado {
+#resultado {
     width: 722px;
     color: black;
+    border: 1px #3175db solid;
+    word-wrap: break-word;
 }
 
 
