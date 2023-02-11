@@ -36,7 +36,7 @@ h1 {
     transform: translate(505%, -122%);
 }
 
-#resultado {
+input#resultado {
     width: 722px;
     color: black;
 }
